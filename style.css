@@ -1,0 +1,160 @@
+*{
+    padding: 0px ; 
+    margin: 0 px; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #75b4e3 ;
+}
+
+/****************
+****All Images***
+****************/
+img {
+    border-radius:30px;
+}
+/************************
+***** First Search ******
+************************/
+
+.first-search {
+    background-color: #fff;
+    width:300px;
+    height: 70px;
+    margin:250px auto;
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+.first-search-text {
+    /* display: inline-block; */
+    background-color:rgb(167, 244, 250);
+    width:180px;
+    margin:15px auto;
+    display: block;
+    float: left;
+    padding:10px;
+    margin-left:20px;
+    border-radius: 5px;
+    outline:none;
+    border: none;
+}
+.search-logo {
+    width:60px;
+    float:left;
+    padding-left: 25px;
+    padding-top:13px;
+    transition: width 0.2s ; 
+}
+.search-logo:hover {
+    width:65px;
+    cursor:pointer;
+}
+
+
+/************************
+***** Main Section --Search ******
+************************/
+.main-section{
+        margin:50px auto; 
+        width: 400px;
+        background-color:rgba(238, 231, 231, 0.938);
+        border-radius: 15px;
+        height: 500px;   
+    }
+
+.search {   /*Copy this sec same attributes to search-first*/
+    background-color:rgba(255, 255, 255, 0.911);
+    width:370px;
+    margin:15px auto;
+    display: block;
+    float: left;
+    padding:10px;
+    margin-left:20px;
+    border-radius: 5px;
+    outline:none;
+    border: none;    
+}
+.main-search{
+    padding:15px;
+    float:left;
+    background-color: #d8e6f0;
+    width:75%;
+    border:none;
+    border-radius: 5px;;
+}
+.main-search:focus,
+.main-search:active {
+    border: none;
+    outline:none;
+}
+.search-logo-main{
+    width:60px;
+    float:left;
+    margin-left: 20px;
+    margin-top: -5px;
+    transition: width 0.3s;
+}
+.search-logo-main:hover{
+    width:65px;
+}
+.sunny {
+    clear:both;
+    width:150px;
+    display: inline-block;
+    margin-left:110px;
+    padding-top:30px;
+}
+
+.tempratue {
+    text-align: center;
+    }
+.degrees{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.weather {
+    font-size:20px;
+    margin-top:-30px;
+}
+
+/************
+****Bottom Section ***
+*************/
+.left, .right{
+    padding-left:20px;
+}
+.left img, .right img {
+    width:30px;
+    float:left;
+}
+.text-humi {
+    float:left;
+    margin-top:-10px;
+    line-height: 5px;
+    padding-left:10px;
+}
+
+/*Right Section*/
+
+.right{
+    padding-top:5px;
+    padding-left: 250px;
+}
+.right img{
+    float:left;
+    padding-right: 10px;
+    width:40px;
+}
+.text-wind {
+    float:left;
+    margin-top:-20px;
+    line-height: 5px;
+    padding-left: 10px;;
+    /* padding-right:10px;  */
+       
+}
+.wind-speed, .humdidity-perentage {
+    font-weight: bolder;
+}

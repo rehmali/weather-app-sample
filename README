@@ -1,0 +1,12 @@
+#### A Simple Weather App ####
+
+## Introduction ##
+    I createda  sample of a simple weather using HTML, CSS and JavaScript in VS Code. 
+    In this app you can search weather of the cities Sui-Karachi-Lahore-Quetta (Supposed Weather Not Actual)
+
+## Learnings ## 
+    I learnt that we can not acces HTML content which is added Dynamically using JS before the JS Dynamic Call 
+
+## Hard Ships ##
+
+    I faces some challenges for changing the DOM , managing my DOM Object and Elements took Some time.
